@@ -33,7 +33,7 @@ const Header: React.FC = () => {
       {/* Main Nav */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link to="/" className="flex-shrink-0">
+          <Link to="/" className="flex-shrink-0 text-primary-700 hover:text-primary-800 transition-colors">
             <Logo />
           </Link>
 
